@@ -21,4 +21,4 @@ app.use('/', todoRouter);
 mongoose.connect(process.env.MONGO_URI);
 
 // Start app.
-app.listen(port, () => {console.log("Express is running on port 3001")});
+app.listen(port, () => {console.log(`Express is running on port ${port}`)});
