@@ -1,0 +1,9 @@
+.todo-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-list-header a {
+    font-size: 1.2rem;
+}

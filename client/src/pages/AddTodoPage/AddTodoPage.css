@@ -1,0 +1,9 @@
+.add-todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-todo-header a {
+    font-size: 1.2rem;
+}
